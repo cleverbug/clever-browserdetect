@@ -18,7 +18,7 @@
    * }]);
    * ```
    */
-  angular.module('cs_browserdetect.services')
+angular.module('cs_browserdetect.services', [])
   .factory('CSBrowserDetectService', function () {
     var browserDetect = {
 
