@@ -6,7 +6,7 @@
   ],
   "description": "Detects browser and browser version for the CleverStack ecosystem",
   "homepage": "https://github.com/CleverStack/clever-browserdetect",
-  "main": "main.js",
+  "main": "cs_browserdetect_service.js",
   "keywords": [
     "cleverstack",
     "clevertech",

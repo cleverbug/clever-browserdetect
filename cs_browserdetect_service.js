@@ -1,4 +1,3 @@
-define(['angular', '../module'], function (ng) {
   'use strict';
   /**
    * @ngdoc service
@@ -19,7 +18,7 @@ define(['angular', '../module'], function (ng) {
    * }]);
    * ```
    */
-  ng.module('cs_browserdetect.services')
+  angular.module('cs_browserdetect.services')
   .factory('CSBrowserDetectService', function () {
     var browserDetect = {
 
@@ -190,4 +189,3 @@ define(['angular', '../module'], function (ng) {
     browserDetect.init();
     return browserDetect;
   });
-});
